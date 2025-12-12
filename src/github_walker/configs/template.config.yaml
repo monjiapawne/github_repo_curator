@@ -1,0 +1,19 @@
+---
+github_auth:
+  key: "GITHUB_API_KEY"
+
+config:
+  repo_range: 2
+  min_issues: 50
+  query: "language:python stars:150..1500"
+
+toggles:
+  language: true
+  filters: true
+
+excludes:
+  - ai
+  - transformer
+  - llm
+  - agent
+  - model
